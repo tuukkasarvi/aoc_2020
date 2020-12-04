@@ -4,7 +4,7 @@ Of course, your expense report is much larger. Find the two entries that sum to 
 what do you get if you multiply them together?
 """
 import numpy as np
-filename = 'input.txt'
+filename = 'data/input.txt'
 
 if __name__ == '__main__':
     data = np.genfromtxt(filename)

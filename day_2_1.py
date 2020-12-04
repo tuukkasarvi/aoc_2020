@@ -39,7 +39,7 @@ def is_password_valid(min, max, character, password):
 
 
 if __name__ == '__main__':
-    filename = 'input_2.txt'
+    filename = 'data/input_2.txt'
     with open(filename) as fp:
        n_valid = 0
        for line in fp:

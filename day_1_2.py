@@ -10,8 +10,7 @@ them together produces the answer, 241861950.
 In your expense report, what is the product of the three entries that sum to 2020?
 """
 import numpy as np
-# folder = 'aoc_2020/'
-filename = 'input.txt'
+filename = 'data/input.txt'
 
 if __name__ == '__main__':
     data = np.genfromtxt(filename)

@@ -70,7 +70,7 @@ class Map:
 
 def part1():
     map = Map()
-    filepath = 'input_3.txt'
+    filepath = 'data/input_3.txt'
     map.read_map(filepath)
     shape = map.shape()
     n_duplications = int(np.ceil(3 * shape[0] / shape[1]))
@@ -82,7 +82,7 @@ def part1():
 
 def part2():
     map = Map()
-    filepath = 'input_3.txt'
+    filepath = 'data/input_3.txt'
     map.read_map(filepath)
     n_duplications = 100  # enough
     map.duplicate_to_right(n_duplications)
